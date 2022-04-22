@@ -10,7 +10,8 @@ For example: consider you are recording a person who is running on the road. The
 In the given example, a slow and high-definition CNN (fast pathway) will be used to analyze the static content
 (i.e., road) of the video whereas a low-definition CNN (slow pathway) will be used to analyze the dynamic content (i.e., person or cars) of the video.
 This is inspired by Retinal-Ganglion neuron in mammals. Usually, the computing cost of slow pathway is 4 times higher than fast pathway.
-Both of them uses ResNet model and runs 3D CNN operations on frames. Slow pathway captures almost 2 frames per second while the fast pathway captures almost 15 frames per second but the number of frames can be
+Both of them uses ResNet model and runs 3D CNN operations on frames. Slow pathway captures almost 2 frames per second while the fast pathway captures almost 15 frames per second but the number of frames can be adjusted to our needs.
+
 
 
 **Files Description:**
@@ -38,3 +39,10 @@ Checkpoints have been implemented in the file to continue the training.
 The last part of the file implements the testing of the model.
 
 
+**Results:**
+Slow Fast has been successfully trained with an accuracy of 95% in 139 epochs.
+
+Accuracy:
+![Bengu_accuracy](https://user-images.githubusercontent.com/96545197/164759308-89ce85d5-aad9-4e66-b96e-759f1d8197ad.JPG)
+Loss:
+![Bengu_loss](https://user-images.githubusercontent.com/96545197/164759304-ff4f7320-6db0-4e15-9a61-eab36e1913c0.JPG)
