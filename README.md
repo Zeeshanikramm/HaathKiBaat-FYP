@@ -13,8 +13,8 @@ This is inspired by Retinal-Ganglion neuron in mammals. Usually, the computing c
 Both of them uses ResNet model and runs 3D CNN operations on frames. Slow pathway captures almost 2 frames per second while the fast pathway captures almost 15 frames per second but the number of frames can be
 
 
-**Files Description**
-The Repository contrains 4 Files in Total.
+**Files Description:**
+The repository contrains 4 files in total.
 
 1) clr.py
 2) model.py
