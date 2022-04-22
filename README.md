@@ -1,6 +1,6 @@
 # SignLanguageClassification
 
-**project description:**
+**Project Description:**
 HaathkiBaat is a mobile application that will be built to assist deaf people for understanding conversations with hearing people and vice versa.
 It will take Urdu speech as input and convert it into Pakistani Sign Language which will be shown through an avatar appearing on mobile screen. 
 
@@ -27,7 +27,7 @@ The data being used are videos of Pakistani sign language which was self-generat
 
 
 
-**Videodata.ipynb:**
+**videodata.ipynb:**
 Before passing data to "model.py" for training, the data is pre-processed. Videos are converted into the frames and stored on drive.
 
 **train.ipynb:**
