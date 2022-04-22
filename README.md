@@ -43,6 +43,10 @@ The last part of the file implements the testing of the model.
 Slow Fast has been successfully trained with an accuracy of 95% in 139 epochs.
 
 Accuracy:
+
 ![Bengu_accuracy](https://user-images.githubusercontent.com/96545197/164759308-89ce85d5-aad9-4e66-b96e-759f1d8197ad.JPG)
+
+
 Loss:
+
 ![Bengu_loss](https://user-images.githubusercontent.com/96545197/164759304-ff4f7320-6db0-4e15-9a61-eab36e1913c0.JPG)
