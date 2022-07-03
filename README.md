@@ -9,12 +9,10 @@ HaathkiBaat is a mobile application that will be built to assist deaf people for
 It will take Urdu speech as input and convert it into Pakistani Sign Language which will be shown through an avatar appearing on mobile screen. 
 
 Machine Learning Models:
-
 Deep Speech
 Slow Fast
 
 Languages/Tools:
-
 Python
 PyTorch
 JavaScript
