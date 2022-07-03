@@ -68,12 +68,14 @@ Loss:
 ![Bengu_loss](https://user-images.githubusercontent.com/96545197/164759304-ff4f7320-6db0-4e15-9a61-eab36e1913c0.JPG)
 
 
-**Backend**
+**Backend** 
+
 The backend converts urdu speech into Urdu text. It receives the base64-encoded-audio-string and converts into text string after decoding it and sends to Frontend.
 To run the backend type this command in terminal
 python ap.py
 
 **Frontend**
+
 Frontend displays the urdu speech into Pakistani Sign Language with the help of Backend. 
 To Run the Front-end type this command ( assuming you have android studio installed):
 react-native run-android
